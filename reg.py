@@ -1,4 +1,5 @@
 # Get user name + Test
+
 def get_user_name(username):
     if len(username) == 0:
         return False
@@ -12,6 +13,7 @@ def test_get_user_name():
     assert get_user_name("user name") == False
 
 # Check user password
+
 import re
 
 def check_user_password(password):
