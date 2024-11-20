@@ -1,5 +1,8 @@
 # Get user name + Test
 
+def greeting():
+    pass
+
 def get_user_name(username):
     if len(username) == 0:
         return False
@@ -15,6 +18,9 @@ def test_get_user_name():
 # Check user password
 
 import re
+
+def test_greeting():
+    assert greeting() == "Hello World"
 
 def check_user_password(password):
     if len(password) < 8:
